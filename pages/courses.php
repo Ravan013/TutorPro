@@ -1,3 +1,23 @@
+<?php 
+require_once '../includes/config.php';
+require_once '../includes/header.php';
+require_once '../includes/navbar.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" TutorPro is a modern online education platform offering expert-led courses in AI, Mathematics, and English. Enroll today.">
+  <meta name="keywords" content="TutorPro, Online Courses, AI Learning, Math Basics, English Communication, Education Platform">
+  <meta name="author" content="TutorPro Team">
+  <title>Welcome to TutorPro | Learn AI, Math & English</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
 <?php
 require_once '../includes/config.php';
 require_once '../includes/header.php';
@@ -65,3 +85,5 @@ $courses = [
 </script>
 
 <?php require_once '../includes/footer.php'; ?>
+</body>
+</html>
