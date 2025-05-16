@@ -69,7 +69,8 @@ require_once '../includes/navbar.php';
             </div>
 
             <div class="text-center">
-                <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send Message</button>
+              
+                <button type="submit" role="button" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Send Message</button>
             </div>
         </form>
     </div>
